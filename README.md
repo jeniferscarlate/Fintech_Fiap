@@ -1,6 +1,6 @@
 <h1 align="center"> Projeto Fintech (SmartCash)</h1>
 
- <a href="https://jeniferscarlate.github.io/Fintech_Fiap/">Acesse ela aqui.
+ <a href="https://jeniferscarlate.github.io/Fintech_Fiap/">Acesse por aqui.
 
 <h2 align="center"> Tela de Login </h2>
 
