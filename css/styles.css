@@ -7,43 +7,32 @@
 }
 
 body{
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,14,154,1) 35%, rgba(0,212,255,1) 100%);
+    background: #ececec;
     font-family: 'Poppins', sans-serif;
 }
 
-form{
-    width: 24%;
-    background-color: rgb(255, 255, 255);
-    padding: 50px;
-    border-radius: 20px;
-    margin-top: 150px;
+.box-area{
+    width: 930px;
 }
 
-.btn-primary{
-    width: 100%;
-    border: none;
-    border-radius: 50px;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,14,154,1) 35%, rgba(0,212,255,1) 100%);
+.right-box{
+    padding: 40px 30px 40px 40px;
 }
 
-.form-control{
-    color: rgba(0,0,0,.87);
-    border-bottom-color: rgba(0,0,0,.42);
-    box-shadow: none !important;
-    border: none;
-    border-bottom: 1px solid;
-    border-radius: 4px 4px 0 0;
-}
-h4{
-   font-size: 2rem !important; 
-   font-weight: 700;
-}
-.form-label{
-    font-family: 800 !important;
+::placeholder{
+    font-size: 16px;
 }
 
-@media only screen and (max-width:600px){
-    form{
-        width: 100% !important; 
+@media only screen and (max-width: 768px){
+    .box-area{
+        margin: 0 10px;
     }
+    .lefft-box{
+        height: 100px;
+        overflow: hidden;
+    }
+    .right-box{
+        padding: 20px;
+    }
+    
 }
